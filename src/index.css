@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #555;
+  color: #0f0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  background-color: black;
+  overflow: hidden;
+}
+
+header {
+  flex: 0 0 auto;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+footer {
+  position: absolute;
+  right: 1em;
+  bottom: 0px;
+  font-size: .75em;
+}
+
+.links {
+  flex: 0 0 auto;
+}
+
+.links a {
+  margin-right: 1em;;
+  color: white;
+}
+
+.content {
+  margin-top: 1em;
+  flex: 1 1 auto;
+  color: white;
+  overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+  width: .5em;
+}
+
+.content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid black;
+}
+
+.content a {
+  color: #0f0;
+}
+
+.content ul {
+  list-style: '- ';
+  padding-left: 1em;
+}
+
+.content ul li {
+  margin-bottom: 1em;
+}
+
+.content ul ul li {
+  margin-bottom: auto;
+}
+
+.content li span {
+  color: #0f0;
+}
+
+a.disguise {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: white;
+  text-decoration:none;
+}

@@ -1,0 +1,15 @@
+{
+    "serviceName": "millage-dev",
+    "containers": {
+        "millage-dev": {
+            "image": ":millage-dev.latest.4",
+            "ports": {
+                "80": "HTTP"
+            }
+        }
+    },
+    "publicEndpoint": {
+        "containerName": "millage-dev",
+        "containerPort": 80
+    }
+}
