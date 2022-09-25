@@ -20,7 +20,7 @@ Resume.propTypes = {
 
 const JobDetails = ({job}) => {
   return (
-    <li>
+    <li className='job'>
       <span>{job.Title} at {job.Name} from {job.Dates}</span>
       <ul>{job.ThingsDone.map((thingDone, index) => (<ThingDone key={index} thing={thingDone} />))}</ul>
     </li>
