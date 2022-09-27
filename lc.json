@@ -2,7 +2,7 @@
     "serviceName": "millage-dev",
     "containers": {
         "millage-dev": {
-            "image": ":millage-dev.latest.6",
+            "image": ":millage-dev.latest.7",
             "ports": {
                 "80": "HTTP"
             }

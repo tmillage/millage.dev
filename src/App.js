@@ -54,7 +54,7 @@ const workDetails = [
         <Header />
         <div className='links'>
           <Link to='/'>Home</Link>
-          <Link to='/resume'>Work Experience</Link>
+          <Link to='/resume'>Work&nbsp;Experience</Link>
           <Link to='/examples'>Code</Link>
           <Link to='/contact'>Contact</Link>
         </div>
